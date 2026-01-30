@@ -5,12 +5,12 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Animator))]
 public class Character : MonoBehaviour
 {
-	private int maxHealth;
-	private float currentHealth;
-	private float moveSpeed;
-	private float maxSpeed;
+	[Header("Base Stats")]
+    [SerializeField] private int maxHealth;
+    [SerializeField] private float moveSpeed;
+    private float currentHealth;
+    private float maxSpeed;
     private bool isDead;
-    private Rigidbody2D rBody;
 	SpriteRenderer sr;
 	Animator anim;
 
@@ -63,7 +63,6 @@ public class Character : MonoBehaviour
         Debug.Log("Awake in Character.cs");
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        rBody = GetComponent<Rigidbody2D>();
         sr.sortingLayerName = "Characters";
         currentHealth = maxHealth;
     }
@@ -84,5 +83,10 @@ public class Character : MonoBehaviour
     protected virtual void Die()
     {
         isDead = true;
+    }
+
+    protected virtual void ApplyMovement()
+    {
+
     }
 }

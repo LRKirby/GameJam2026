@@ -15,7 +15,7 @@ public class Enemy : Character
 
     private void FixedUpdate()
     {
-        UpdateMovement();
+        ApplyMovement();
     }
 
     void Update()
@@ -42,7 +42,7 @@ public class Enemy : Character
         }
     }
 
-    private void UpdateMovement()
+    protected override void ApplyMovement()
     {
         Vector3.MoveTowards(transform.position, player.transform.position, MoveSpeed*Time.deltaTime);
     }
