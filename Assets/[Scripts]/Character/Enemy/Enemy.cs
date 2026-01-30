@@ -1,13 +1,21 @@
+using System;
 using UnityEngine;
 
 public class Enemy : Character
 {
     private bool isSeen;
     private float baseSpeed;
+    private Vector2 moveDirection;
+    [SerializeField] private PlayerController player;
     protected override void Awake()
     {
         base.Awake();
         baseSpeed = MoveSpeed;
+    }
+
+    private void FixedUpdate()
+    {
+        UpdateMovement();
     }
 
     void Update()
@@ -32,5 +40,10 @@ public class Enemy : Character
         {
             isSeen = value;
         }
+    }
+
+    private void UpdateMovement()
+    {
+        Vector3.MoveTowards(transform.position, player.transform.position, MoveSpeed*Time.deltaTime);
     }
 }
