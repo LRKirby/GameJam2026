@@ -6,7 +6,7 @@ public class Enemy : Character
     private bool isSeen;
     private float baseSpeed;
     private Vector2 moveDirection;
-    [SerializeField] private PlayerController player;
+    [SerializeField] private Player player;
     protected override void Awake()
     {
         base.Awake();
