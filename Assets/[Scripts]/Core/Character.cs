@@ -6,44 +6,54 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
 	private int maxHealth;
-	private int currentHealth;
+	private float currentHealth;
 	private float moveSpeed;
 	private float maxSpeed;
+    private bool isDead;
+    private Rigidbody2D rBody;
 	SpriteRenderer sr;
 	Animator anim;
 
 	protected int MaxHealth {
-		get {
+		get 
+        {
 			return maxHealth;
 		}
-		set {
+		set 
+        {
 			maxHealth = Math.Abs(value);
 		}
 	}
 
-	protected int CurrentHealth {
-		get {
+	protected float CurrentHealth {
+		get 
+        {
 			return currentHealth;
 		}
-		set {
+		set 
+        {
 			currentHealth = Math.Clamp(value, 0, maxHealth);
 		}
 	}
 
 	protected float MaxSpeed {
-		get  {
+		get  
+        {
 			return maxSpeed;
 		}
-		set {
+		set 
+        {
 			maxSpeed = Math.Abs(value);
 		}
 	}
 
 	protected float MoveSpeed {
-		get {
+		get 
+        {
 			return moveSpeed;
 		}
-		set {
+		set 
+        {
 			moveSpeed = Math.Clamp(value, 0, maxSpeed);
 		}
 
@@ -53,7 +63,26 @@ public class Character : MonoBehaviour
         Debug.Log("Awake in Character.cs");
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        rBody = GetComponent<Rigidbody2D>();
         sr.sortingLayerName = "Characters";
         currentHealth = maxHealth;
+    }
+
+    public virtual void TakeDamage(float damageToTake)
+    {
+        // take damage equal to parameter
+        CurrentHealth -= damageToTake;
+
+		// check if dead
+        if (currentHealth <= 0 && !isDead)
+        {
+			Debug.Log($"{gameObject.name} is dead.");
+			Die();
+        }
+    }
+
+    protected virtual void Die()
+    {
+        isDead = true;
     }
 }
