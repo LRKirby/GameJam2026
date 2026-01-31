@@ -3,14 +3,16 @@ using UnityEngine;
 using static UnityEngine.InputSystem.InputAction;
 
 [RequireComponent(typeof(PlayerInputHandler))]
-public class Player : Character
+public class Player : MonoBehaviour
 {
+    [SerializeField] private float moveSpeed;
     private Rigidbody2D rBody;
     private PlayerInputHandler input;
+    private float xVelocity;
+    private float yVelocity;
 
     void Awake()
     {
-        base.Awake();
         rBody = GetComponent<Rigidbody2D>();
         input = GetComponent<PlayerInputHandler>();
     }
@@ -20,10 +22,11 @@ public class Player : Character
         ApplyMovement();
     }
 
-    protected override void ApplyMovement()
+    void ApplyMovement()
     {
-        float horizontalVelocity = input.MoveInput.x * MoveSpeed;
-        rBody.linearVelocity = new Vector2(horizontalVelocity, rBody.linearVelocity.y);
+        xVelocity = input.MoveInput.x * moveSpeed;
+        yVelocity = input.MoveInput.y * moveSpeed;
+        rBody.linearVelocity = new Vector2(xVelocity, yVelocity);
     }
 }
 
