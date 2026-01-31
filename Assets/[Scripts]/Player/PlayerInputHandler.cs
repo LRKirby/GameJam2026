@@ -11,6 +11,5 @@ public class PlayerInputHandler : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         _moveInput = context.ReadValue<Vector2>();
-        Debug.Log($"{_moveInput}");
     }
 }
