@@ -8,6 +8,9 @@ public class PlayerInputHandler : MonoBehaviour
     private Vector2 _moveInput;
     private bool _flashlightOn, isClose, open;
     private Drawer drawer;
+    [SerializeField] private AudioClip onSound, offSound;
+    [SerializeField] private AudioSource sound;
+
     public Vector2 MoveInput
     {
         get { return _moveInput; }
@@ -26,6 +29,10 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext context)
     {
+        if (!FlashlightOn)
+            sound.PlayOneShot(onSound);
+        else
+            sound.PlayOneShot(offSound);
         FlashlightOn = !FlashlightOn;
     }
 
@@ -33,10 +40,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         drawer = other.gameObject.GetComponent<Drawer>();
         if (drawer != null)
-        {
             isClose = true;
-            Debug.Log("AA");
-        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -44,6 +48,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (drawer != null)
         {
             isClose = false;
+            drawer = null;
         }
     }
 

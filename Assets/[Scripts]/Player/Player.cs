@@ -1,7 +1,7 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEngine.InputSystem.InputAction;
 
 [RequireComponent(typeof(PlayerInputHandler))]
 public class Player : MonoBehaviour
@@ -15,18 +15,42 @@ public class Player : MonoBehaviour
     private float yVelocity;
     private Animator anim;
     private Vector2 mouse, lightRotation;
+    private AudioClip[] footsteps;
+    private AudioSource stepAudio;
+    private bool stepped;
 
     void Awake()
     {
         rBody = GetComponent<Rigidbody2D>();
         input = GetComponent<PlayerInputHandler>();
         anim = GetComponent<Animator>();
+        footsteps = new AudioClip[4];
+        stepAudio = GetComponent<AudioSource>();
+
+        // add every footstep sound to an array
+        for (int i = 0; i < 4; i++)
+        {
+            footsteps[i] = Resources.Load<AudioClip>($"Audio/step{i + 1}");
+        }
     }
 
     void Update()
     {
         if (rBody.linearVelocity.x != 0 || rBody.linearVelocity.y != 0)
+        {
             anim.SetBool("Walking", true);
+            // footstep sounds
+            if (!stepped)
+            {
+                // get a random footstep sound
+                int randomSound = UnityEngine.Random.Range(0, footsteps.Length);
+                // play it
+                stepAudio.PlayOneShot(footsteps[randomSound]);
+                stepped = true;
+                // time between steps
+                StartCoroutine(Footstep());
+            }
+        }
         else
             anim.SetBool("Walking", false);
 
@@ -76,6 +100,12 @@ public class Player : MonoBehaviour
         xVelocity = input.MoveInput.x * moveSpeed;
         yVelocity = input.MoveInput.y * moveSpeed;
         rBody.linearVelocity = new Vector2(xVelocity, yVelocity);
+    }
+
+    IEnumerator Footstep()
+    {
+        yield return new WaitForSeconds(0.6f);
+        stepped = false;
     }
 }
 
