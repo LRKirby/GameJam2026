@@ -4,9 +4,10 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
+    [HideInInspector] public Animator anim;
     private Player player;
     public bool isSeen;
-    private Animator anim;
+
     private float lastPos, direction;
 
     private void Awake()
@@ -43,5 +44,10 @@ public class Enemy : MonoBehaviour
     {
         transform.position =
             Vector3.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.fixedDeltaTime);
+    }
+
+    public void Die()
+    {
+       Destroy(gameObject);
     }
 }
