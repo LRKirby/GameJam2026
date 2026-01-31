@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
 
-[RequireComponent()]
 public class EnemyTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject enemyPrefab;
