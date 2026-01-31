@@ -4,8 +4,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
-    [SerializeField] private Player player;
+    private Player player;
     public bool isSeen;
+
+    private void Awake()
+    {
+        player = FindFirstObjectByType<Player>();
+    }
 
     private void FixedUpdate()
     {
