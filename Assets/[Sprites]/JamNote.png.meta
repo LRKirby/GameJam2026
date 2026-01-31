@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 14705749eb0e6d84f84709dbb811de67
+guid: 9e8676e41fa550849a937683a6544894
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8671015907322699824
-    second: Scarymask_0
+      213: 6544703743950493869
+    second: JamNote_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scarymask_0
+      name: JamNote_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50
-        height: 50
+        width: 51
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0dfd44a29fc5aa780800000000000000
-      internalID: -8671015907322699824
+      spriteID: da8965a316573da50800000000000000
+      internalID: 6544703743950493869
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scarymask_0: -8671015907322699824
+      JamNote_0: 6544703743950493869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
