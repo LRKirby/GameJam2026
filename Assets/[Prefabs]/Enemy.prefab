@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f6e5386c36eab4bba52252cb5e5f5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  moveSpeed: 1
+  moveSpeed: 4
   isSeen: 0
 --- !u!82 &1206723091809522831
 AudioSource:
