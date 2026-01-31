@@ -26,6 +26,30 @@ TextureImporter:
   - first:
       213: -4779565670643514011
     second: ShadeMan_Walk_Sheet_7
+  - first:
+      213: -8283762583377288688
+    second: ShadeMan_Walk_Sheet_8
+  - first:
+      213: -5750139354756163577
+    second: ShadeMan_Walk_Sheet_9
+  - first:
+      213: -5540925110055536700
+    second: ShadeMan_Walk_Sheet_10
+  - first:
+      213: 2819943646631870899
+    second: ShadeMan_Walk_Sheet_11
+  - first:
+      213: -5951195447039216619
+    second: ShadeMan_Walk_Sheet_12
+  - first:
+      213: 1385899033180185803
+    second: ShadeMan_Walk_Sheet_13
+  - first:
+      213: 1541348284717779289
+    second: ShadeMan_Walk_Sheet_14
+  - first:
+      213: -6812286056978180350
+    second: ShadeMan_Walk_Sheet_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,7 +175,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -173,7 +197,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -195,7 +219,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 18
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -217,7 +241,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 26
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -239,7 +263,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -261,7 +285,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 43
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -283,7 +307,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 51
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -305,7 +329,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 59
-        y: 0
+        y: 26
         width: 7
         height: 25
       alignment: 7
@@ -322,11 +346,187 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012ef16d1d92a0d80800000000000000
+      internalID: -8283762583377288688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708d3cee8b66330b0800000000000000
+      internalID: -5750139354756163577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7f81038fdaa13b0800000000000000
+      internalID: -5540925110055536700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1cc105ec3722720800000000000000
+      internalID: 2819943646631870899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5143e4e854b196da0800000000000000
+      internalID: -5951195447039216619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4234fe3d3bb3310800000000000000
+      internalID: 1385899033180185803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959c2c93918f36510800000000000000
+      internalID: 1541348284717779289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadeMan_Walk_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 7
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20718799ce5e571a0800000000000000
+      internalID: -6812286056978180350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f80eaa5369f71a74f80990d413f09a59
+    spriteID: 982dcf43ede898a4599c7314e5c343f7
     internalID: 0
     vertices: []
     indices: 
@@ -340,12 +540,20 @@ TextureImporter:
     nameFileIdTable:
       ShadeMan_Walk_Sheet_0: 7983371366689942099
       ShadeMan_Walk_Sheet_1: 5363148219801769018
+      ShadeMan_Walk_Sheet_10: -5540925110055536700
+      ShadeMan_Walk_Sheet_11: 2819943646631870899
+      ShadeMan_Walk_Sheet_12: -5951195447039216619
+      ShadeMan_Walk_Sheet_13: 1385899033180185803
+      ShadeMan_Walk_Sheet_14: 1541348284717779289
+      ShadeMan_Walk_Sheet_15: -6812286056978180350
       ShadeMan_Walk_Sheet_2: -8481453844096519799
       ShadeMan_Walk_Sheet_3: -1232874346210172549
       ShadeMan_Walk_Sheet_4: 630558314653087907
       ShadeMan_Walk_Sheet_5: -2054425652117634107
       ShadeMan_Walk_Sheet_6: 6131909921677480403
       ShadeMan_Walk_Sheet_7: -4779565670643514011
+      ShadeMan_Walk_Sheet_8: -8283762583377288688
+      ShadeMan_Walk_Sheet_9: -5750139354756163577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
