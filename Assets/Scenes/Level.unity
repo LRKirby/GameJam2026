@@ -1313,7 +1313,7 @@ GameObject:
   - component: {fileID: 1718585200}
   - component: {fileID: 1718585204}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatteryUI
   FlashLight: {fileID: 1986266067}
-  batteryLife: 15
+  batteryLife: 30
   battery_100: {fileID: 293692411}
   battery_75: {fileID: 1919283374}
   battery_50: {fileID: 2033768943}

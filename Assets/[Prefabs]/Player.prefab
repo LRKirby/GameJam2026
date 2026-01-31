@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 396b0af54432cb245b65dcd12a576a46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 3
+  moveSpeed: 2
   lightObj: {fileID: 3672237790211485689}
 --- !u!114 &158149976255025614
 MonoBehaviour:
