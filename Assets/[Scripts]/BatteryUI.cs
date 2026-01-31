@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class BatteryUI : MonoBehaviour
 {
     public GameObject FlashLight;
-
+    public bool flashlightDead;
 
     public float batteryLife = 5f;
 
@@ -26,7 +26,11 @@ public class BatteryUI : MonoBehaviour
 
     private void Update()
     {
-        currentBatteryLife -= Time.deltaTime;
+        if (FlashLight.activeInHierarchy)
+        {
+            currentBatteryLife -= Time.deltaTime;
+        }
+        
         if (currentBatteryLife <= 0)
         {
             currentBatteryLife = 0;
@@ -46,7 +50,7 @@ public class BatteryUI : MonoBehaviour
        
         if (batteryPercentage <= 0f)
         {
-            FlashLight.SetActive(false);
+            flashlightDead = true;
         }
 
     }

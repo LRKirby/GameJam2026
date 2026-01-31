@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private GameObject lightObj;
+    [SerializeField] private BatteryUI hudGameObject;
     private Rigidbody2D rBody;
     private PlayerInputHandler input;
     private float xVelocity;
@@ -43,6 +44,15 @@ public class Player : MonoBehaviour
         {
             LightFlip();
             anim.SetBool("FacingRight", true);
+        }
+
+        if (input.FlashlightOn && hudGameObject.flashlightDead == false)
+        {
+            lightObj.SetActive(true);
+        }
+        else
+        {
+            lightObj.SetActive(false);
         }
     }
 
