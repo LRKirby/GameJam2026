@@ -2,33 +2,31 @@ using System;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 
 public class EnemyTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private List<GameObject> enemyList;
-    private List<GameObject> spawnedEnemies;
+    [SerializeField] private List<GameObject> enemySpawnLocation;
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        foreach (GameObject enemy in enemyList)
+        if (other.gameObject.CompareTag("Player"))
         {
-            spawnedEnemies.Add(SpawnEnemy());
+            for (int i = 0; i < enemySpawnLocation.Count; i++)
+            {
+                Debug.Log("Spawning enemies");
+                SpawnEnemy(enemySpawnLocation[i].transform.position);
+            }
+            Destroy(gameObject);
         }
-    }
+    } 
 
-    private void OnTriggerExit2D(Collider2D other)
+    void SpawnEnemy(Vector2 spawnLocation)
     {
-        foreach (GameObject enemy in spawnedEnemies)
-        {
-            Destroy(enemy);
-        }
-    }
-
-    GameObject SpawnEnemy()
-    {
-        GameObject spawnedEnemy = Instantiate(enemyPrefab, new Vector2(0, 0), Quaternion.identity);
-        return spawnedEnemy;
+        Instantiate(enemyPrefab, spawnLocation, Quaternion.identity);
     }
 
 }
