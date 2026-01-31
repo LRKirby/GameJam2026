@@ -970,6 +970,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 158149976255025614, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 158149976255025614, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 158149976255025614, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 835717782}
+    - target: {fileID: 158149976255025614, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 158149976255025614, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 158149976255025614, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerInputHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 158149976255025614, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5639830455677837761, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1022,6 +1050,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8372330339602862933, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+      propertyPath: hudGameObject
+      value: 
+      objectReference: {fileID: 1718585204}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1032,6 +1064,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6694844117522706906, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
   m_PrefabInstance: {fileID: 788087973}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &835717782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8969746659539182308, guid: d252af1b34edf1c4c8335c480f26ecdf, type: 3}
+  m_PrefabInstance: {fileID: 788087973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f5d4deecc4ad74089e8cfee6865bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputHandler
 --- !u!1 &1248584650 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7878303467105538592, guid: 72b660439d0334049909025a694477cc, type: 3}
@@ -1420,6 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatteryUI
   FlashLight: {fileID: 1986266067}
+  flashlightDead: 0
   batteryLife: 30
   battery_100: {fileID: 293692411}
   battery_75: {fileID: 1919283374}
