@@ -1,0 +1,1127 @@
+fileFormatVersion: 2
+guid: 7ecbb8ceada2bb44e9f9fac9c177e589
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8368071753198329884
+    second: JamTiles1_0
+  - first:
+      213: 1642886025760792927
+    second: JamTiles1_1
+  - first:
+      213: 8356885020653532885
+    second: JamTiles1_2
+  - first:
+      213: -6754672907324282378
+    second: JamTiles1_3
+  - first:
+      213: -895077434981314339
+    second: JamTiles1_4
+  - first:
+      213: -2970625129640237890
+    second: JamTiles1_5
+  - first:
+      213: -4363673639909004075
+    second: JamTiles1_6
+  - first:
+      213: -2056710092780984261
+    second: JamTiles1_7
+  - first:
+      213: -8453182486671744240
+    second: JamTiles1_8
+  - first:
+      213: 1978555415364823686
+    second: JamTiles1_9
+  - first:
+      213: 1659730663871672137
+    second: JamTiles1_10
+  - first:
+      213: 7069917035386812202
+    second: JamTiles1_11
+  - first:
+      213: -6133961524467732605
+    second: JamTiles1_12
+  - first:
+      213: -214794806977137893
+    second: JamTiles1_13
+  - first:
+      213: -734944028532885295
+    second: JamTiles1_14
+  - first:
+      213: 8327633538740926143
+    second: JamTiles1_15
+  - first:
+      213: -2535209065489842372
+    second: JamTiles1_16
+  - first:
+      213: -3379292868249249615
+    second: JamTiles1_17
+  - first:
+      213: -1358439762130460010
+    second: JamTiles1_18
+  - first:
+      213: -8315024073517401839
+    second: JamTiles1_19
+  - first:
+      213: 1963351177421195659
+    second: JamTiles1_20
+  - first:
+      213: 2327848922393680600
+    second: JamTiles1_21
+  - first:
+      213: -7552326482585131516
+    second: JamTiles1_22
+  - first:
+      213: 5307408707104105545
+    second: JamTiles1_23
+  - first:
+      213: -7366054159202261478
+    second: JamTiles1_24
+  - first:
+      213: -9043831104442179796
+    second: JamTiles1_25
+  - first:
+      213: -1692158874124842278
+    second: JamTiles1_26
+  - first:
+      213: 5017913611664745581
+    second: JamTiles1_27
+  - first:
+      213: 1555589320791847061
+    second: JamTiles1_28
+  - first:
+      213: -7823072617558952526
+    second: JamTiles1_29
+  - first:
+      213: 6478745864512168975
+    second: JamTiles1_30
+  - first:
+      213: -6771671098401190408
+    second: JamTiles1_31
+  - first:
+      213: -2055216342370904354
+    second: JamTiles1_32
+  - first:
+      213: 9041128845372433629
+    second: JamTiles1_33
+  - first:
+      213: -3463213620636374218
+    second: JamTiles1_34
+  - first:
+      213: -5705745698808942066
+    second: JamTiles1_35
+  - first:
+      213: -6471443564534467782
+    second: JamTiles1_36
+  - first:
+      213: -3785237042556281091
+    second: JamTiles1_37
+  - first:
+      213: 5523278067690166284
+    second: JamTiles1_38
+  - first:
+      213: -3065280617421744950
+    second: JamTiles1_39
+  - first:
+      213: -2185317192606801990
+    second: JamTiles1_40
+  - first:
+      213: -3658983044598187116
+    second: JamTiles1_41
+  - first:
+      213: -685996592539865371
+    second: JamTiles1_42
+  - first:
+      213: 3308070921745927084
+    second: JamTiles1_43
+  - first:
+      213: -8295480653383466976
+    second: JamTiles1_44
+  - first:
+      213: 3153938613531800865
+    second: JamTiles1_45
+  - first:
+      213: 8001836590840110171
+    second: JamTiles1_46
+  - first:
+      213: 8366416682647872571
+    second: JamTiles1_47
+  - first:
+      213: 7048362279606529675
+    second: JamTiles1_48
+  - first:
+      213: -2064006191933667811
+    second: JamTiles1_49
+  - first:
+      213: -8706181605017892608
+    second: JamTiles1_50
+  - first:
+      213: 4009013796830663395
+    second: JamTiles1_51
+  - first:
+      213: 991683284712047568
+    second: JamTiles1_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JamTiles1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef12af8313aedb80800000000000000
+      internalID: -8368071753198329884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 158
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51ece3d224bcc610800000000000000
+      internalID: 1642886025760792927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 158
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d636dc46ae99f370800000000000000
+      internalID: 8356885020653532885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 158
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f92bf057c49242a0800000000000000
+      internalID: -6754672907324282378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 158
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4e1f20f2836c6d0800000000000000
+      internalID: -2970625129640237890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 158
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3824d941191573e0800000000000000
+      internalID: -2056710092780984261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fe4e2ce3c880710800000000000000
+      internalID: 1659730663871672137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 132
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27b6bde5146d1260800000000000000
+      internalID: 7069917035386812202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 132
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fef2c1e7acfdaa0800000000000000
+      internalID: -6133961524467732605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b137786d245e40df0800000000000000
+      internalID: -214794806977137893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 132
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb63840f492b19370800000000000000
+      internalID: 8327633538740926143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 132
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692a271db3ad52de0800000000000000
+      internalID: -1358439762130460010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94461c86914b7a940800000000000000
+      internalID: 5307408707104105545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16e57ce4c486c990800000000000000
+      internalID: -7366054159202261478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f581bd68bdd7280800000000000000
+      internalID: -9043831104442179796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada834c287e3488e0800000000000000
+      internalID: -1692158874124842278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5907032de30969510800000000000000
+      internalID: 1555589320791847061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_30
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f046744b90129e950800000000000000
+      internalID: 6478745864512168975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63baca89f8130ffc0800000000000000
+      internalID: -3463213620636374218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 80
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02b7cb648e11d0b0800000000000000
+      internalID: -5705745698808942066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a337fef7d50d036a0800000000000000
+      internalID: -6471443564534467782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_37
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 54
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe58cff6f2287bc0800000000000000
+      internalID: -3785237042556281091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_38
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 54
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08d0649320a6ac40800000000000000
+      internalID: 5523278067690166284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 54
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4dfadd48fe575d0800000000000000
+      internalID: -3065280617421744950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_40
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 54
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf1e1577913ca1e0800000000000000
+      internalID: -2185317192606801990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 54
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b3c8b9e4ea83dc0800000000000000
+      internalID: -3658983044598187116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee6880dbb9da76f0800000000000000
+      internalID: -685996592539865371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_43
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 28
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab0776f9f0a8ed20800000000000000
+      internalID: 3308070921745927084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_44
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 27
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02004fd0c4880ec80800000000000000
+      internalID: -8295480653383466976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_45
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 27
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12573fe657a05cb20800000000000000
+      internalID: 3153938613531800865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 27
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c5fbbdbfb3c0f60800000000000000
+      internalID: 8001836590840110171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34e02c45ab7b1470800000000000000
+      internalID: 8366416682647872571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_48
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ea5344620d0d160800000000000000
+      internalID: 7048362279606529675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d164693dd4d2b53e0800000000000000
+      internalID: -2064006191933667811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JamTiles1_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0094ed225fd6d2780800000000000000
+      internalID: -8706181605017892608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dbe58df8c9b2aa3418a7adf0215c0255
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      JamTiles1_0: -8368071753198329884
+      JamTiles1_1: 1642886025760792927
+      JamTiles1_10: 1659730663871672137
+      JamTiles1_11: 7069917035386812202
+      JamTiles1_12: -6133961524467732605
+      JamTiles1_13: -214794806977137893
+      JamTiles1_14: -734944028532885295
+      JamTiles1_15: 8327633538740926143
+      JamTiles1_16: -2535209065489842372
+      JamTiles1_17: -3379292868249249615
+      JamTiles1_18: -1358439762130460010
+      JamTiles1_19: -8315024073517401839
+      JamTiles1_2: 8356885020653532885
+      JamTiles1_20: 1963351177421195659
+      JamTiles1_21: 2327848922393680600
+      JamTiles1_22: -7552326482585131516
+      JamTiles1_23: 5307408707104105545
+      JamTiles1_24: -7366054159202261478
+      JamTiles1_25: -9043831104442179796
+      JamTiles1_26: -1692158874124842278
+      JamTiles1_27: 5017913611664745581
+      JamTiles1_28: 1555589320791847061
+      JamTiles1_29: -7823072617558952526
+      JamTiles1_3: -6754672907324282378
+      JamTiles1_30: 6478745864512168975
+      JamTiles1_31: -6771671098401190408
+      JamTiles1_32: -2055216342370904354
+      JamTiles1_33: 9041128845372433629
+      JamTiles1_34: -3463213620636374218
+      JamTiles1_35: -5705745698808942066
+      JamTiles1_36: -6471443564534467782
+      JamTiles1_37: -3785237042556281091
+      JamTiles1_38: 5523278067690166284
+      JamTiles1_39: -3065280617421744950
+      JamTiles1_4: -895077434981314339
+      JamTiles1_40: -2185317192606801990
+      JamTiles1_41: -3658983044598187116
+      JamTiles1_42: -685996592539865371
+      JamTiles1_43: 3308070921745927084
+      JamTiles1_44: -8295480653383466976
+      JamTiles1_45: 3153938613531800865
+      JamTiles1_46: 8001836590840110171
+      JamTiles1_47: 8366416682647872571
+      JamTiles1_48: 7048362279606529675
+      JamTiles1_49: -2064006191933667811
+      JamTiles1_5: -2970625129640237890
+      JamTiles1_50: -8706181605017892608
+      JamTiles1_51: 4009013796830663395
+      JamTiles1_52: 991683284712047568
+      JamTiles1_6: -4363673639909004075
+      JamTiles1_7: -2056710092780984261
+      JamTiles1_8: -8453182486671744240
+      JamTiles1_9: 1978555415364823686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
