@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -8,10 +7,11 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
-    [SerializeField] private GameObject lightObj, jumpscare;
+    [SerializeField] private GameObject lightObj, jumpscare, mask;
     [SerializeField] private BatteryUI hudGameObject;
     [SerializeField] private AudioClip scareAudio;
     [SerializeField] private AudioSource music;
+    [SerializeField] private GameObject[] faces;
     private Rigidbody2D rBody;
     private PlayerInputHandler input;
     private float xVelocity;
@@ -110,6 +110,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             jumpscare.SetActive(true);
+            faces[Random.Range(0, faces.Length)].SetActive(true);
             music.Stop();
             noise.PlayOneShot(scareAudio);
             StartCoroutine(Delay());
