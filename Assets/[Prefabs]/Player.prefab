@@ -110,7 +110,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.58
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 13d9f9e0df0e2bdc00000000
@@ -123,14 +123,14 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.9
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 5.05195, y: 0.00079989433, z: 0}
-    m_Extent: {x: 5.4482503, y: 2.5, z: 0}
+    m_Center: {x: 2.2507, y: 0.00034999847, z: 0}
+    m_Extent: {x: 2.6462998, y: 1.49915, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -142,8 +142,10 @@ MonoBehaviour:
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: 0.10436821, y: -0.06141758, z: 0}
-  - {x: 10, y: -2, z: 0}
-  - {x: 10, y: 2, z: 0}
+  - {x: 4, y: -1, z: 0}
+  - {x: 4.3977675, y: -0.4596064, z: 0}
+  - {x: 4.397768, y: 0.48883724, z: 0}
+  - {x: 4, y: 1, z: 0}
   - {x: 0.10443497, y: 0.060453415, z: 0}
 --- !u!60 &1855604609105725251
 PolygonCollider2D:
@@ -191,10 +193,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 10.069072, y: 2.3105376}
+    - - {x: 4.518815, y: -0.49039054}
+      - {x: 4.5356555, y: 0.5745921}
+      - {x: 4.0866838, y: 1.123446}
       - {x: 0, y: 0.08469067}
       - {x: 0.007654965, y: -0.08469073}
-      - {x: 10.108878, y: -2.3169851}
+      - {x: 4.0641403, y: -1.1138482}
   m_UseDelaunayMesh: 0
 --- !u!114 &4718057958135563152
 MonoBehaviour:
@@ -880,7 +884,7 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.8
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
