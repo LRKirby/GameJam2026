@@ -2,20 +2,34 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SocialPlatforms;
+using static UnityEngine.Timeline.DirectorControlPlayable;
 
 public class PlayerInputHandler : MonoBehaviour
 {
     private Vector2 _moveInput;
     private bool _flashlightOn, isClose, open;
+    public InputAction PauseAction; // This too
     private Drawer drawer;
     [SerializeField] private AudioClip onSound, offSound;
     [SerializeField] private AudioSource sound;
+
+    private void OnEnable() // I added this I dont think its needs 
+    {
+        if (PauseAction != null)
+            PauseAction.Enable();
+    }
+
+    private void OnDisable()
+    {
+        if (PauseAction != null)
+            PauseAction.Disable();
+    }
 
     public Vector2 MoveInput
     {
         get { return _moveInput; }
     }
-
+    
     public bool FlashlightOn
     {
         get { return _flashlightOn; }
