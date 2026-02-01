@@ -4,6 +4,12 @@ using UnityEngine.InputSystem;
 public class Drawer : MonoBehaviour
 {
     [SerializeField] private GameObject text, drawer;
+    private PlayerInputHandler player;
+
+    private void Awake()
+    {
+        player = FindFirstObjectByType<PlayerInputHandler>();
+    }
 
     public GameObject GetDrawer
     {
@@ -24,5 +30,12 @@ public class Drawer : MonoBehaviour
         {
             text.SetActive(false);
         }
+    }
+
+    public void Exit()
+    {
+        drawer.SetActive(false);
+        player.Open = false;
+        Time.timeScale = 1;
     }
 }

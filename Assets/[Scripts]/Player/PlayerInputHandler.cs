@@ -22,6 +22,12 @@ public class PlayerInputHandler : MonoBehaviour
         set { _flashlightOn = value; }
     }
 
+    public bool Open
+    {
+        get { return open; }
+        set { open = value; }
+    }
+
     public void OnMove(InputAction.CallbackContext context)
     {
         _moveInput = context.ReadValue<Vector2>();
@@ -29,11 +35,14 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if (!FlashlightOn)
-            sound.PlayOneShot(onSound);
-        else
-            sound.PlayOneShot(offSound);
-        FlashlightOn = !FlashlightOn;
+        if (!open)
+        {
+            if (!FlashlightOn)
+                sound.PlayOneShot(onSound);
+            else
+                sound.PlayOneShot(offSound);
+            FlashlightOn = !FlashlightOn;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
