@@ -196,6 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   moveSpeed: 4
   anim: {fileID: 0}
+  jumpscare: {fileID: 0}
   isSeen: 0
 --- !u!82 &1206723091809522831
 AudioSource:

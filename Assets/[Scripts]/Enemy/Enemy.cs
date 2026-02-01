@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -46,8 +47,18 @@ public class Enemy : MonoBehaviour
             Vector3.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.fixedDeltaTime);
     }
 
+    // this exists for the animation to run when it's fading away
     public void Die()
     {
        Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            // scene 1 is the level (0 is main menu)
+            SceneManager.LoadScene(1);
+        }
     }
 }
