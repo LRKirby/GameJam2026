@@ -6,7 +6,7 @@ public class PlayerInputHandler : MonoBehaviour
     private Vector2 _moveInput;
     private bool _flashlightOn, isClose, open, isPaused;
     private Drawer drawer;
-    [SerializeField] private AudioClip onSound, offSound;
+    [SerializeField] private AudioClip onSound, offSound, drawerOpen;
     [SerializeField] private AudioSource sound;
     [SerializeField] private GameObject pausePanel;
 
@@ -35,6 +35,11 @@ public class PlayerInputHandler : MonoBehaviour
     {
         get { return pausePanel; }
         set { pausePanel = value; }
+    }
+
+    public AudioSource Sound
+    {
+        get { return sound; }
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -68,10 +73,7 @@ public class PlayerInputHandler : MonoBehaviour
             }
             else
             {
-                Time.timeScale = 1;
-                drawer.GetDrawer.SetActive(false);
-                open = false;
-                
+                drawer.Exit();
             }
         }
         else
@@ -115,13 +117,12 @@ public class PlayerInputHandler : MonoBehaviour
             {
                 Time.timeScale = 0;
                 drawer.GetDrawer.SetActive(true);
+                sound.PlayOneShot(drawerOpen);
                 open = true;
             }
             else
             {
-                Time.timeScale = 1;
-                drawer.GetDrawer.SetActive(false);
-                open = false;
+                drawer.Exit();
             }
         }
     }

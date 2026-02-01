@@ -529,6 +529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInputHandler
   onSound: {fileID: 8300000, guid: b25147467e37ac64dbde703d0fc14769, type: 3}
   offSound: {fileID: 8300000, guid: 9169318310f53b544916713ff394b8b9, type: 3}
+  drawerOpen: {fileID: 8300000, guid: bb84c26b13379534598e564b3a9c746f, type: 3}
+  drawerClose: {fileID: 8300000, guid: 5726215b377e0904baec95caae755287, type: 3}
   sound: {fileID: 1788007351266248859}
   pausePanel: {fileID: 0}
 --- !u!50 &1797169329730441274

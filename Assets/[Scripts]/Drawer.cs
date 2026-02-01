@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class Drawer : MonoBehaviour
 {
     [SerializeField] private GameObject text, drawer, note;
+    [SerializeField] private AudioClip drawerClose;
     private PlayerInputHandler player;
 
     private void Awake()
@@ -24,6 +25,7 @@ public class Drawer : MonoBehaviour
     public void Exit()
     {
         drawer.SetActive(false);
+        player.Sound.PlayOneShot(drawerClose);
         player.Open = false;
         Time.timeScale = 1;
     }
