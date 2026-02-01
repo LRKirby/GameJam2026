@@ -109,11 +109,14 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            jumpscare.SetActive(true);
-            faces[Random.Range(0, faces.Length)].SetActive(true);
-            music.Stop();
-            noise.PlayOneShot(scareAudio);
-            StartCoroutine(Delay());
+            if (!jumpscare.activeSelf)
+            {
+                jumpscare.SetActive(true);
+                faces[Random.Range(0, faces.Length)].SetActive(true);
+                music.Stop();
+                noise.PlayOneShot(scareAudio);
+                StartCoroutine(Delay());
+            }
         }
     }
 
