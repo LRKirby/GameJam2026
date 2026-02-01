@@ -47,14 +47,27 @@ public class BatteryUI : MonoBehaviour
         battery_25.enabled = batteryPercentage <= 25f && batteryPercentage > 0f;
         battery_0.enabled = batteryPercentage <= 0f;
 
-       
+
         if (batteryPercentage <= 0f)
         {
             flashlightDead = true;
         }
 
+
+
     }
-   
+    public void RechargeBattery(float percent)
+    {
+        float amount = batteryLife * (percent / 100f);
+        currentBatteryLife += amount;
+
+        if (currentBatteryLife > batteryLife)
+            currentBatteryLife = batteryLife;
+
+        flashlightDead = false;
+        UpdateBatteryUI();
+    }
+
 }
 
 
