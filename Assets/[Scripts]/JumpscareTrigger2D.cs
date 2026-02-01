@@ -6,16 +6,14 @@ using UnityEngine.UI;
 public class JumpscareTrigger2D : MonoBehaviour
 {
     public GameObject jumpscareImage;
-    public AudioClip jumpscareClip;
-    public float duration = 0.5f;
+    public float duration;
 
     private AudioSource audioSource;
     private bool triggered = false;
 
     private void Awake()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.playOnAwake = false;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -34,10 +32,11 @@ public class JumpscareTrigger2D : MonoBehaviour
     {
         jumpscareImage.SetActive(true);
 
-        if (jumpscareClip != null)
-            audioSource.PlayOneShot(jumpscareClip);
+        audioSource.PlayOneShot(audioSource.clip);
 
         yield return new WaitForSeconds(duration);
+
+        audioSource.Stop();
 
         jumpscareImage.SetActive(false);
     }

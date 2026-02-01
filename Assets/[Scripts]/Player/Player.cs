@@ -2,13 +2,16 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(PlayerInputHandler))]
 public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
-    [SerializeField] private GameObject lightObj;
+    [SerializeField] private GameObject lightObj, jumpscare;
     [SerializeField] private BatteryUI hudGameObject;
+    [SerializeField] private AudioClip scareAudio;
+    [SerializeField] private AudioSource music;
     private Rigidbody2D rBody;
     private PlayerInputHandler input;
     private float xVelocity;
@@ -16,7 +19,7 @@ public class Player : MonoBehaviour
     private Animator anim;
     private Vector2 mouse, lightRotation;
     private AudioClip[] footsteps;
-    private AudioSource stepAudio;
+    private AudioSource noise;
     private bool stepped;
 
     void Awake()
@@ -25,7 +28,7 @@ public class Player : MonoBehaviour
         input = GetComponent<PlayerInputHandler>();
         anim = GetComponent<Animator>();
         footsteps = new AudioClip[4];
-        stepAudio = GetComponent<AudioSource>();
+        noise = GetComponent<AudioSource>();
 
         // add every footstep sound to an array
         for (int i = 0; i < 4; i++)
@@ -45,7 +48,7 @@ public class Player : MonoBehaviour
                 // get a random footstep sound
                 int randomSound = UnityEngine.Random.Range(0, footsteps.Length);
                 // play it
-                stepAudio.PlayOneShot(footsteps[randomSound]);
+                noise.PlayOneShot(footsteps[randomSound]);
                 stepped = true;
                 // time between steps
                 StartCoroutine(Footstep());
@@ -100,6 +103,23 @@ public class Player : MonoBehaviour
         xVelocity = input.MoveInput.x * moveSpeed;
         yVelocity = input.MoveInput.y * moveSpeed;
         rBody.linearVelocity = new Vector2(xVelocity, yVelocity);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            jumpscare.SetActive(true);
+            music.Stop();
+            noise.PlayOneShot(scareAudio);
+            StartCoroutine(Delay());
+        }
+    }
+
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(3.25f);
+        SceneManager.LoadScene(1);
     }
 
     IEnumerator Footstep()

@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: -2802490113976146676}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,7 +357,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 2
   lightObj: {fileID: 3672237790211485689}
+  jumpscare: {fileID: 0}
   hudGameObject: {fileID: 0}
+  scareAudio: {fileID: 8300000, guid: 897b1805e534711468e60c7c60696cfc, type: 3}
 --- !u!114 &158149976255025614
 MonoBehaviour:
   m_ObjectHideFlags: 0

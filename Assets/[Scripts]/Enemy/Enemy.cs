@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -51,14 +52,5 @@ public class Enemy : MonoBehaviour
     public void Die()
     {
        Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            // scene 1 is the level (0 is main menu)
-            SceneManager.LoadScene(1);
-        }
     }
 }
