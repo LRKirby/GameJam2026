@@ -68,6 +68,11 @@ public class BatteryUI : MonoBehaviour
         UpdateBatteryUI();
     }
 
+    public bool IsFull()
+    {
+        return currentBatteryLife >= batteryLife;
+    }
+
 }
 
 

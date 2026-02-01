@@ -225,8 +225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JumpscareTrigger2D
   jumpscareImage: {fileID: 192946106}
-  jumpscareClip: {fileID: 8300000, guid: d5cdf4c4245a8af49860d766bd74d796, type: 3}
-  duration: 1
+  jumpscareClip: {fileID: 8300000, guid: 897b1805e534711468e60c7c60696cfc, type: 3}
+  duration: 2
 --- !u!61 &54472152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1182,9 +1182,133 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1469513512}
     m_Modifications:
+    - target: {fileID: 394683468142032871, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: batteryUI
+      value: 
+      objectReference: {fileID: 1718585204}
+    - target: {fileID: 394683468142032871, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: rechargePercent
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1408325809}
+    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseBattery
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BatteryPickup, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1408325809}
+    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseBattery
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BatteryPickup, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1408325809}
+    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseBattery
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BatteryPickup, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749074095457941536, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5639830455677837761, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
       propertyPath: m_Name
       value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1408325809}
+    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseBattery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BatteryPickup, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6694844117522706906, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1236,6 +1360,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6694844117522706906, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
   m_PrefabInstance: {fileID: 1408325807}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1408325809 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 394683468142032871, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+  m_PrefabInstance: {fileID: 1408325807}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d55598964010ef4cb80de42c3a3de09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BatteryPickup
 --- !u!1 &1469513511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,7 +1693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatteryUI
   FlashLight: {fileID: 1986266067}
   flashlightDead: 0
-  batteryLife: 30
+  batteryLife: 10
   battery_100: {fileID: 293692411}
   battery_75: {fileID: 1919283374}
   battery_50: {fileID: 2033768943}

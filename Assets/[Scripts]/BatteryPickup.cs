@@ -1,20 +1,30 @@
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class BatteryPickup : MonoBehaviour
 {
-    public BatteryUI batteryItem;
-    public float rechargePercent = 25f;
-
-    public void UseBattery()
-    {
-        if (batteryItem == null)
-            return;
-
-        batteryItem.RechargeBattery(rechargePercent);
-
-        gameObject.SetActive(false);
+    public BatteryUI batteryUI;
+    public float rechargePercent = 100f;
 
    
+    public void UseBattery()
+    {
+        if (batteryUI == null)
+            return;
+
+
+
+        if (batteryUI.IsFull())
+        {
+            Debug.Log("Battery already full!");
+            return;
+        }
+
+
+        batteryUI.RechargeBattery(rechargePercent);
+
+
+        GameObject clickedButton = EventSystem.current.currentSelectedGameObject;
+        Destroy(clickedButton);
     }
 }
