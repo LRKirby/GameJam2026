@@ -1,29 +1,14 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SocialPlatforms;
-using static UnityEngine.Timeline.DirectorControlPlayable;
 
 public class PlayerInputHandler : MonoBehaviour
 {
     private Vector2 _moveInput;
-    private bool _flashlightOn, isClose, open;
-    public InputAction PauseAction; // This too
+    private bool _flashlightOn, isClose, open, isPaused;
     private Drawer drawer;
     [SerializeField] private AudioClip onSound, offSound;
     [SerializeField] private AudioSource sound;
-
-    private void OnEnable() // I added this I dont think its needs 
-    {
-        if (PauseAction != null)
-            PauseAction.Enable();
-    }
-
-    private void OnDisable()
-    {
-        if (PauseAction != null)
-            PauseAction.Disable();
-    }
+    [SerializeField] private GameObject pausePanel;
 
     public Vector2 MoveInput
     {
@@ -38,8 +23,18 @@ public class PlayerInputHandler : MonoBehaviour
 
     public bool Open
     {
-        get { return open; }
         set { open = value; }
+    }
+
+    public bool IsPaused
+    {
+        set { isPaused = value; }
+    }
+
+    public GameObject PausePanel
+    {
+        get { return pausePanel; }
+        set { pausePanel = value; }
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -49,13 +44,41 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if (!open)
+        if (!open && !isPaused)
         {
             if (!FlashlightOn)
                 sound.PlayOneShot(onSound);
             else
                 sound.PlayOneShot(offSound);
             FlashlightOn = !FlashlightOn;
+        }
+    }
+
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        if (!context.performed) return;
+
+        if (!isPaused)
+        {
+            if (!open)
+            {
+                pausePanel.SetActive(true);
+                Time.timeScale = 0;
+                isPaused = true;
+            }
+            else
+            {
+                Time.timeScale = 1;
+                drawer.GetDrawer.SetActive(false);
+                open = false;
+                
+            }
+        }
+        else
+        {
+            pausePanel.SetActive(false);
+            Time.timeScale = 1;
+            isPaused = false;
         }
     }
 
