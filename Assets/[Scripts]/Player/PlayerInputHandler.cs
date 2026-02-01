@@ -84,17 +84,26 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        drawer = other.gameObject.GetComponent<Drawer>();
-        if (drawer != null)
-            isClose = true;
+        if (other.gameObject.CompareTag("Drawer"))
+        {
+            drawer = other.gameObject.GetComponent<Drawer>();
+            if (drawer != null)
+            {
+                drawer.Text.SetActive(true);
+                isClose = true;
+            }
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (drawer != null)
+        if (other.gameObject.CompareTag("Drawer"))
         {
-            isClose = false;
-            drawer = null;
+            if (drawer != null)
+            {
+                drawer.Text.SetActive(false);
+                isClose = false;
+            }
         }
     }
 

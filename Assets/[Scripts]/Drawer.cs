@@ -16,20 +16,9 @@ public class Drawer : MonoBehaviour
         get { return drawer; }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public GameObject Text
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            text.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            text.SetActive(false);
-        }
+        get { return text; }
     }
 
     public void Exit()

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9093200652658364836}
   - component: {fileID: 2954768478607046547}
   - component: {fileID: 5361982131588722382}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 3881785800957059682}
   - component: {fileID: 5769773012673481201}
   - component: {fileID: 353757565022342700}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 5886564901621786494}
   - component: {fileID: 8770486581436955711}
   - component: {fileID: 3618461305588749133}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 2833801801748125131}
   - component: {fileID: 1751866382864927323}
   - component: {fileID: 4469984353864939601}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,9 +458,9 @@ GameObject:
   - component: {fileID: 2858422561620115754}
   - component: {fileID: 4026902663060986009}
   - component: {fileID: 4282819124704287599}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Table
-  m_TagString: Untagged
+  m_TagString: Drawer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 4957112255502984557}
   - component: {fileID: 3081896174990108261}
   - component: {fileID: 407417122877109410}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,7 +733,7 @@ GameObject:
   - component: {fileID: 1546586955001249096}
   - component: {fileID: 1649160244426379214}
   - component: {fileID: 1389763498759414229}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: NoteText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1736180687486385810}
   - component: {fileID: 394683468142032871}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: BatteryItemPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -860,7 +860,7 @@ GameObject:
   - component: {fileID: 4812713285018087151}
   - component: {fileID: 8415024666452310739}
   - component: {fileID: 7483468004686015874}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 7154042500511615333}
   - component: {fileID: 4469536221121672741}
   - component: {fileID: 1111530693115105608}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1172,7 +1172,7 @@ GameObject:
   - component: {fileID: 2353402608978683680}
   - component: {fileID: 561014896756088998}
   - component: {fileID: 7327135174934549228}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: NoteBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 6660816119498077673}
   - component: {fileID: 3919460038675704722}
   - component: {fileID: 4004027454435220839}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: BatteryItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
