@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Drawer : MonoBehaviour
 {
-    [SerializeField] private GameObject text, drawer;
+    [SerializeField] private GameObject text, drawer, note;
     private PlayerInputHandler player;
 
     private void Awake()
@@ -37,5 +37,15 @@ public class Drawer : MonoBehaviour
         drawer.SetActive(false);
         player.Open = false;
         Time.timeScale = 1;
+    }
+
+    public void Note()
+    {
+        note.SetActive(true);
+    }
+
+    public void NoteBack()
+    {
+        note.SetActive(false);
     }
 }

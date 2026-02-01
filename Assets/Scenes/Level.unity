@@ -1069,6 +1069,96 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!1 &541194969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 541194970}
+  - component: {fileID: 541194971}
+  m_Layer: 0
+  m_Name: Arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &541194970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541194969}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6906624, y: 0.98130965, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1469513512}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &541194971
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541194969}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c3e0f21f98192ef4d91f6519f3c8fd9e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.25, y: 0.8333333}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &627942050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,133 +1654,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1469513512}
     m_Modifications:
-    - target: {fileID: 394683468142032871, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: batteryUI
-      value: 
-      objectReference: {fileID: 1718585204}
-    - target: {fileID: 394683468142032871, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: rechargePercent
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1408325809}
-    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UseBattery
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BatteryPickup, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808641139048387838, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1408325809}
-    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UseBattery
-      objectReference: {fileID: 0}
-    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BatteryPickup, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4004027454435220839, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1408325809}
-    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UseBattery
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BatteryPickup, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351767064200814043, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4749074095457941536, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5639830455677837761, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
       propertyPath: m_Name
       value: Table
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1408325809}
-    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UseBattery
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BatteryPickup, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535479976892937702, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6694844117522706906, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1732,6 +1698,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733908860479418757, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1742,17 +1712,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6694844117522706906, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
   m_PrefabInstance: {fileID: 1408325807}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1408325809 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 394683468142032871, guid: 44abdc52f16ad1249ab523818f12c43f, type: 3}
-  m_PrefabInstance: {fileID: 1408325807}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d55598964010ef4cb80de42c3a3de09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BatteryPickup
 --- !u!1 &1469513511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,6 +1741,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 541194970}
   - {fileID: 1408325808}
   - {fileID: 1805094668}
   m_Father: {fileID: 0}
